@@ -31,7 +31,19 @@
   },
   "permissions": [
       "identity",
-      "identity.email"
+      "identity.email",
+      "tabs",
+      "scripting"
   ],
-  "host_permissions": ["https://tasks.googleapis.com/*"]
+  "host_permissions": [
+      "https://tasks.googleapis.com/*",
+      "http://*/",
+      "https://*/"
+  ],
+  "commands": {
+      "capture-task": {
+          "suggested_key": "Ctrl+C",
+          "description": "Capture a new task from the current page."
+      }
+  }
 }
