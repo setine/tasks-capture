@@ -36,7 +36,6 @@
       "scripting"
   ],
   "host_permissions": [
-      "https://tasks.googleapis.com/*",
       "http://*/",
       "https://*/"
   ],
