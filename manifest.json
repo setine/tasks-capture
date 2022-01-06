@@ -41,7 +41,7 @@
   ],
   "commands": {
       "capture-task": {
-          "suggested_key": "Ctrl+C",
+          "suggested_key": "Alt+T",
           "description": "Capture a new task from the current page."
       }
   }
