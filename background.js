@@ -7,12 +7,12 @@ const CREATE_TASK_URL = (taskListId) =>
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.message === 'capture') {
-        createTask(request.title, request.description);
+        createTask(request.title, request.description, request.date);
         sendResponse();
     }
 });
 
-async function createTask(title, description) {
+async function createTask(title, description, date) {
     chrome.identity.getAuthToken({interactive: true}, (authToken) => {
         const fetchHeaders = {
             'Authorization': `Bearer ${authToken}`,
@@ -29,6 +29,7 @@ async function createTask(title, description) {
                 'body': JSON.stringify({
                     'title': title,
                     'notes': description,
+                    'due': date ? date + 'T00:00:00.00Z' : '',
                 }),
             }).then((res) => console.log(res));
         });

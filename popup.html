@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <link type="text/css" rel="stylesheet" href="pico.min.css"/>
+      <link type="text/css" rel="stylesheet" href="bootstrap.min.css"/>
   </head>
   <body>
-      <main class="container" style="min-width:400px">
-          <section>
-              <form>
-                  <div class="grid">
-                      <label>Title:
-                          <input id="title" autofocus type="text" name="title" placeholder="Title"/>
-                      </label>
-                      <label>Description:
-                          <textarea id="description" name="description" placeholder="Description" rows="8"></textarea>
-                      </label>
-                      <button id="createTask">Create task</button>
-                  </div>
-              </form>
-          </section>
+      <div class="container" style="min-width:400px">
+          <form class="m-3">
+              <div class="mb-3">
+                  <label class="form-label">Title:</label>
+                  <input id="title" class="form-control" autofocus type="text" name="title" placeholder="Title"/>
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Description:</label>
+                  <textarea id="description" class="form-control" name="description" placeholder="Description" rows="5"></textarea>
+              </div>
+              <div class="mb-3">
+                  <label class="form-label" for="date">Due date:</label>
+                  <input type="date" class="form-control" id="date" name="date">
+              </div>
+              <button id="createTask" class="mt-4 mb-3 btn btn-primary col-12">Create task</button>
+          </form>
       </main>
       <script src="popup.js"></script>
   </body>
