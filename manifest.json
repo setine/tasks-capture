@@ -40,7 +40,7 @@
       "https://*/"
   ],
   "commands": {
-      "capture-task": {
+      "_execute_action": {
           "suggested_key": "Alt+T",
           "description": "Capture a new task from the current page."
       }
