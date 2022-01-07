@@ -31,7 +31,7 @@ async function createTask(title, description, date) {
                     'notes': description,
                     'due': date ? date + 'T00:00:00.00Z' : '',
                 }),
-            }).then((res) => console.log(res));
+            });
         });
     });
 }

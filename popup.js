@@ -4,6 +4,7 @@ const descriptionInput = document.getElementById('description');
 const dateInput = document.getElementById('date');
 
 createTaskButton.addEventListener('click', async () => {
+    if(!titleInput.value) return;
     chrome.runtime.sendMessage({
         'message': 'capture',
         'title': titleInput.value,
