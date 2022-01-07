@@ -17,6 +17,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
   titleInput.value = tab.title;
   descriptionInput.value = [selection, tab.url]
         .filter(Boolean).join("\n\n");
+  titleInput.select();
 });
 
 async function getCurrentTab() {

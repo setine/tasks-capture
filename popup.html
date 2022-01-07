@@ -4,14 +4,17 @@
       <link type="text/css" rel="stylesheet" href="pico.min.css"/>
   </head>
   <body>
-      <main class="container" style="min-width:300px">
+      <main class="container" style="min-width:400px">
           <section>
-              <h2>Capture a Task</h2>
               <form>
                   <div class="grid">
-                      <input id="title" autofocus type="text" name="title" placeholder="Title"/>
-                      <input id="description" type="text" name="description" placeholder="Description"/>
-                      <button id="createTask">Create</button>
+                      <label>Title:
+                          <input id="title" autofocus type="text" name="title" placeholder="Title"/>
+                      </label>
+                      <label>Description:
+                          <textarea id="description" name="description" placeholder="Description" rows="8"></textarea>
+                      </label>
+                      <button id="createTask">Create task</button>
                   </div>
               </form>
           </section>
