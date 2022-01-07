@@ -9,17 +9,17 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/get_started16.png",
-      "32": "/images/get_started32.png",
-      "48": "/images/get_started48.png",
-      "128": "/images/get_started128.png"
+      "16": "/images/task-add-16.png",
+      "32": "/images/task-add-32.png",
+      "48": "/images/task-add-48.png",
+      "128": "/images/task-add-128.png"
     }
   },
   "icons": {
-    "16": "/images/get_started16.png",
-    "32": "/images/get_started32.png",
-    "48": "/images/get_started48.png",
-    "128": "/images/get_started128.png"
+    "16": "/images/task-add-16.png",
+    "32": "/images/task-add-32.png",
+    "48": "/images/task-add-48.png",
+    "128": "/images/task-add-128.png"
   },
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvBBs6+m+Oot+60mB4cS8WxjDZz7T7hJPAN7E1PnslGerKF5pHBA4h9yj6egRtb94b5MFmXkhXL+ZF+pYatnWsi8Px7WM68CBrUMJZnVzm7IclZ9WpPuYMj9tF6G0fVEwbwDgFYRD2n3798d1CJWns11HYyYrBUgtYML5hPjbqZR0Pkl2ZiPJSVflw4EBYKshlsnKz8oUlOHp4rLiina9Roi3CIFbyYRrj4V91E4cGQS64jRuMT3KdfcIehhrG1S+V2lUfH9+OcAJj9JMilWz/xRF+/WOMKqdnthDD0aiB06kYtun7xMEEM1/emjiuZcHwSt32tq4Z6GOX8qaCLml6wIDAQAB",
   "oauth2": {
