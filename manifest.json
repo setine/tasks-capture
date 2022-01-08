@@ -31,7 +31,6 @@
   },
   "permissions": [
       "identity",
-      "identity.email",
       "tabs",
       "scripting"
   ],
